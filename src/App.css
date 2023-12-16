@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  min-height: 60%;
+  background-color: rgba(14, 104, 195, 0.148);
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  padding: 25px 100px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.select-province {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: first first baseline; */
+  /* max-height: 100%; */
+  margin-top: 5rem;
+}
+.blue-word{
+  color: #0051a0;
+}
+.select-wrapper {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  gap: 30px;
+  font-family: 'Mochiy Pop One', sans-serif;
+}
+
+.select-wrapper h1 {
+  font-size: 40px;
+}
+.select-wrapper > select {
+  padding: 16px 12px;
+
+  border-radius: 10px;
+  border: 3px solid #7aa8d7ae;
+  font-size: 11px;
+}
+.image-1 {
+  margin-left: 5rem;
+  width: 75px;
+  height: 105px;
+  transform: rotate(-25deg);
+
+  filter: blur(2px);
+  /* -webkit-filter: blur(2px); */
+}
+
+.image-2 {
+  width: 140px;
+  transform: rotate(25deg);
+
+  filter: blur(3px);
+}
+
+.products-section {
+  padding: 45px 50px;
+  /* margin-top: 18px; */
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.more-button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.recommended {
+  padding: 45px 40px;
+}
+
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 0px 18px; */
+  padding: 0px 50px;
+
+  /* font-family: "Mochiy Pop One"; */
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+
+  color: #181933;
+}
+
+.left-btn, .right-btn{
+  background-color: #9dcaf6;
+  color: #181933;
+  border-radius: 100%;
+  padding: 6px 16px;
+  
+}
+.right-btn{
+  margin-left: 15px;
+}

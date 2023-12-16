@@ -1,0 +1,115 @@
+.product-header {
+    padding: 25px 100px;
+}
+
+.product-single {
+    padding: 25px 0px;
+    padding-left: 100px;
+    display: flex;
+}
+.left-section {
+    width: 50%;
+}
+#back-to-product {
+    margin-left: 60px;
+    padding: 8px 20px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+#back-to-product>i {
+    margin-right: 5px;
+    /* text-decoration: none; */
+}
+.image-container {
+    /* background-color: rgba(212, 230, 245, 0.584); */
+    background: linear-gradient(319.11deg, rgba(0, 81, 160, 0.132) 38.35%, rgba(0, 81, 160, 0) 111.82%);
+    border-radius: 50px;
+    padding: 80px 60px;
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.image-container > img {
+    /* transform: rotate(-10deg); */
+    /* margin-left: 70px; */
+    object-fit: cover;
+    height: 500px;
+}
+.btn-2 {
+    padding: 8px 10px;
+    background-color: rgba(212, 230, 245, 0.623);
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+
+    cursor: pointer;
+    border: none;
+}
+.right-section {
+    width: 50%;
+    padding-left: 90px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-family: "Open Sans";
+  
+}
+
+.right-section > .btn-2 {
+    width: 60px;
+}
+
+.right-section>h1{
+    font-size: 30px;
+}
+.right-section>h6{
+    font-size: 12px;
+}
+.right-section > ul {
+    margin-left: 20px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    width: 418px;
+    color: #000000;
+}
+.multi-images{
+    gap: 30px;
+    display: flex;
+    margin-top: 25px;
+}
+.multi-images>span{
+  
+
+padding: 10px 20px;
+background: #FFFFFF;
+border: 6.80108px solid rgba(0, 81, 160, 0.32);
+border-radius: 13.6022px;
+}
+.multi-images>h6{
+    margin-top: 20px;
+}
+.multi-images>span>img{
+    width: 59.85px;
+    height: 78px;
+    cursor: pointer;
+    
+}
+
+.btn-buy-now{
+    width: 115px;
+}
+
+.btn-buy-now>i{
+    transform: rotate(-45deg);
+    margin-left: 3px;
+}
+

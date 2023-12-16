@@ -1,0 +1,66 @@
+.login-page{
+    height: 100vh;
+    background: linear-gradient(to bottom right, #ffffffc2, #99ccffa6);
+}
+
+.logo{
+    padding: 35px 70px;
+}
+.logo>img{
+    width: 150px;
+}
+
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.064);
+    border-radius: 10px;
+    padding: 60px 40px;
+    min-width: 400px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  
+    
+
+}
+.login-form>h2{
+    text-align: center;
+}
+
+.input-wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input{
+    padding: 10px;
+    font-size: 17px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.btn-signin{
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background: linear-gradient(to bottom right, #198dff, #0051a0);
+    transition: .3s ease;
+    margin-top: 5px;
+}
+
+.btn-signin:hover{
+    background: linear-gradient(to bottom right, #0c7dee, #01458a);
+}
